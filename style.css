@@ -1,0 +1,38 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-weight: 900;
+    line-height: 1.6;
+}
+.top-banner {
+    background-color: #F0FFF0;
+}
+.logo {
+    width: 200px;
+}
+.navbar-collapse a {
+    margin: 25px;
+    padding-top: 20px;
+}
+.top-heading {
+    padding: 90px 60px;
+    line-height: 40px;
+}
+p{
+    color: gray;
+}
+.grn-btn{
+    border: none;
+    background-color: #21B573;
+    color: white;
+    border-radius: 33px;
+    padding: 7px 25px;
+}
+#sign-in{
+    background-color: #21B573;
+    color: white;
+    border-radius: 33px;
+    padding: 12px 28px;
+    margin-top: 33px;
+}
