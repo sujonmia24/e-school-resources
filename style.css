@@ -22,6 +22,9 @@ h1{
 p{
     color: gray;
 }
+h3{
+    font-weight: 60;
+}
 .grn-btn{
     border: none;
     background-color: #21B573;
@@ -35,4 +38,24 @@ p{
     border-radius: 33px;
     padding: 12px 28px;
     margin-top: 33px;
+}
+.card img {
+    width:25%;
+    text-align: center;
+}
+.card{
+    padding-top: 50px;
+    margin-top: 40px;
+    border-radius: 15px;
+    background: #F8FFFB;
+
+}
+.card-body {
+    text-align: center;
+}
+#book{
+    width: 60px;
+}
+.card:hover {
+    background-color: #fff;
 }
