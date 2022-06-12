@@ -2,6 +2,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 h1{
+    font-size: 48px;
     font-weight: 900;
     line-height: 1.6;
 }
@@ -22,9 +23,6 @@ h1{
 p{
     color: gray;
 }
-h3{
-    font-weight: 60;
-}
 .grn-btn{
     border: none;
     background-color: #21B573;
@@ -39,23 +37,45 @@ h3{
     padding: 12px 28px;
     margin-top: 33px;
 }
-.card img {
+#students img {
     width:25%;
-    text-align: center;
 }
-.card{
+#students .card{
+    border: none;
     padding-top: 50px;
     margin-top: 40px;
-    border-radius: 15px;
-    background: #F8FFFB;
+    border-radius: 10px;
+    background-color: #F8FFFB;
 
 }
 .card-body {
     text-align: center;
 }
-#book{
-    width: 60px;
-}
 .card:hover {
     background-color: #fff;
+    box-shadow: 1px 1px 30px lightgray;
+}
+h4{
+    font-weight: 500;
+    color: #413960;
+    font-size: 24px;
+}
+.courses h2 {
+    color: #413960;
+    font-weight: 700;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    font-size: 36px;
+    text-shadow: 3px 3px 5px grey;
+}
+.courses img{
+    width: 85%;
+    padding: 30px 0;
+    margin: auto;
+}
+.card-descript{
+    margin-left: 34px;
+}
+.card-footer img {
+    width: 26px;
 }
