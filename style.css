@@ -37,10 +37,10 @@ p{
     padding: 12px 28px;
     margin-top: 33px;
 }
-#students img {
+.students img {
     width:25%;
 }
-#students .card{
+.students .card{
     border: none;
     padding-top: 50px;
     margin-top: 40px;
@@ -69,13 +69,62 @@ h4{
     text-shadow: 3px 3px 5px grey;
 }
 .courses img{
-    width: 85%;
+    width: 90%;
     padding: 30px 0;
     margin: auto;
 }
 .card-descript{
-    margin-left: 34px;
+    margin-left: 20px;
 }
 .card-footer img {
     width: 26px;
+    padding: 0;
 }
+.card-footer {
+    background-color: #fff;
+    border-top: none;
+    padding-top: 30px;
+}
+.courses .card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 30px lightgray;
+}
+.testimonial h2 {
+    text-align: center;
+    margin: 100px 0px;
+    font-weight: 700;
+    font-size: 36px;
+}
+.testimonial p {
+    margin-left: 50px;
+    color: gray;
+}
+.testimonial img {
+    width: 120px;
+    height: 120px;
+}
+.footer {
+    margin-top: 100px;
+    padding: 50px;
+}
+.footer a {
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+.footer {
+    background-color: #282531;
+}
+.footer p {
+    color: #fff;
+}
+.footer h5 {
+    color: white;
+}
+.footer footer {
+    color: white;
+    text-align: center;
+    margin-top: 75px;
+}
+
